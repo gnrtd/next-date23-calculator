@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Day Calculator</h1>
+        <p>Add 23 days to any date (excluding Saturdays and Sundays)</p>
+
+        <div class="calculator">
+            <div class="input-group">
+                <label for="startDate">Start Date:</label>
+                <input type="date" id="startDate">
+            </div>
+            
+            <button id="calculateBtn">Calculate</button>
+            
+            <div class="result" id="result">
+                <h2>Result:</h2>
+                <p id="resultText">Select a start date and click Calculate</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
